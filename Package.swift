@@ -27,6 +27,7 @@ let package = Package(
                     "typescript/src/node-types.json",
                 ],
                 sources: [
+                    "common/scanner.h",
                     "tsx/src/parser.c",
                     "tsx/src/scanner.c",
                     "typescript/src/parser.c",
