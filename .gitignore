@@ -20,3 +20,5 @@ log.html
 /typescript/Cargo.toml
 /typescript/binding.gyp
 /typescript/bindings
+
+.build/
