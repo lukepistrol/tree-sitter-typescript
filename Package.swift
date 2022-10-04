@@ -14,10 +14,7 @@ let package = Package(
                     "binding.gyp",
                     "bindings",
                     "Cargo.toml",
-                    "corpus",
-                    "grammar.js",
                     "LICENSE",
-                    "Makefile",
                     "package.json",
                     "README.md",
                     "script",
@@ -37,6 +34,6 @@ let package = Package(
                     .copy("queries")
                 ],
                 publicHeadersPath: "bindings/swift",
-                cSettings: [.headerSearchPath("src")])
+                cSettings: [.headerSearchPath("tsx/src"), .headerSearchPath("typescript/src")])
     ]
 )
