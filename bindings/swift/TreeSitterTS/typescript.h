@@ -8,7 +8,6 @@ extern "C" {
 #endif
 
 extern TSLanguage *tree_sitter_typescript();
-extern TSLanguage *tree_sitter_tsx();
 
 #ifdef __cplusplus
 }
